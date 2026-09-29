@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/styygeli/echonetgo/internal/logging"
-	"github.com/styygeli/echonetgo/internal/specs"
+	"github.com/inexcession/echonetgo/internal/logging"
+	"github.com/inexcession/echonetgo/internal/specs"
 )
 
 const maxAdaptiveSplitDepth = 8

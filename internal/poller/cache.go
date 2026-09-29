@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/styygeli/echonetgo/internal/config"
-	"github.com/styygeli/echonetgo/internal/echonet"
-	"github.com/styygeli/echonetgo/internal/specs"
+	"github.com/inexcession/echonetgo/internal/config"
+	"github.com/inexcession/echonetgo/internal/echonet"
+	"github.com/inexcession/echonetgo/internal/specs"
 )
 
 // DeviceState is a snapshot of one device's state, delivered to update

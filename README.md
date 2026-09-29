@@ -165,7 +165,7 @@ The **addon_echonetgo/** directory contains a ready-to-use Home Assistant add-on
 
 ### Installation
 
-1. Add this repository as an add-on repository: **Settings → Add-ons → Add-on store → ⋮ → Repositories** — add `https://github.com/styygeli/EchonetGO`.
+1. Add this repository as an add-on repository: **Settings → Add-ons → Add-on store → ⋮ → Repositories** — add `https://github.com/inexcession/EchonetGO`.
 2. Install the **EchonetGO** add-on.
 3. Create `/config/echonetgo/config.yaml` with your device list.
 4. Start the add-on.

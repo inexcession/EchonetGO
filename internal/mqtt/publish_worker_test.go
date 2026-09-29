@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/styygeli/echonetgo/internal/config"
-	"github.com/styygeli/echonetgo/internal/echonet"
-	"github.com/styygeli/echonetgo/internal/poller"
+	"github.com/inexcession/echonetgo/internal/config"
+	"github.com/inexcession/echonetgo/internal/echonet"
+	"github.com/inexcession/echonetgo/internal/poller"
 )
 
 // newTestPublisher builds a Publisher with the async pipeline fields initialized

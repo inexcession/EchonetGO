@@ -13,14 +13,14 @@ import (
 	"github.com/prometheus/client_golang/prometheus/collectors"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/styygeli/echonetgo/internal/api"
-	"github.com/styygeli/echonetgo/internal/config"
-	"github.com/styygeli/echonetgo/internal/echonet"
-	"github.com/styygeli/echonetgo/internal/logging"
-	echonetmetrics "github.com/styygeli/echonetgo/internal/metrics"
-	mqttpub "github.com/styygeli/echonetgo/internal/mqtt"
-	"github.com/styygeli/echonetgo/internal/poller"
-	"github.com/styygeli/echonetgo/internal/specs"
+	"github.com/inexcession/echonetgo/internal/api"
+	"github.com/inexcession/echonetgo/internal/config"
+	"github.com/inexcession/echonetgo/internal/echonet"
+	"github.com/inexcession/echonetgo/internal/logging"
+	echonetmetrics "github.com/inexcession/echonetgo/internal/metrics"
+	mqttpub "github.com/inexcession/echonetgo/internal/mqtt"
+	"github.com/inexcession/echonetgo/internal/poller"
+	"github.com/inexcession/echonetgo/internal/specs"
 )
 
 // version is injected at build time via -ldflags "-X main.version=...". Defaults to "dev".

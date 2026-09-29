@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/styygeli/echonetgo/internal/specs"
+	"github.com/inexcession/echonetgo/internal/specs"
 )
 
 func TestExpireAfterFor(t *testing.T) {

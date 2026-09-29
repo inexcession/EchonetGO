@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/styygeli/echonetgo/internal/config"
-	"github.com/styygeli/echonetgo/internal/echonet"
+	"github.com/inexcession/echonetgo/internal/config"
+	"github.com/inexcession/echonetgo/internal/echonet"
 )
 
 func TestReconciler_NeedsReconciliation(t *testing.T) {

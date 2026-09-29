@@ -1,11 +1,11 @@
 # EchonetGO Add-on Documentation
 
-For full configuration reference, device classes, architecture, and spec format, see the main project [README](https://github.com/styygeli/EchonetGO#readme).
+For full configuration reference, device classes, architecture, and spec format, see the main project [README](https://github.com/inexcession/EchonetGO#readme).
 
 ## Setup
 
 1. Create a folder under Home Assistant config, e.g. `/config/echonetgo/`.
-2. Place your `config.yaml` there (see [Configuration](https://github.com/styygeli/EchonetGO#configuration) in the main README).
+2. Place your `config.yaml` there (see [Configuration](https://github.com/inexcession/EchonetGO#configuration) in the main README).
 3. Optionally place a separate `devices.yaml` and set `devices_path` in add-on options.
 
 ## Add-on options
@@ -67,11 +67,11 @@ Device support in EchonetGO is defined by YAML specification files. By default, 
 If you want to customize how your device appears (e.g., adding friendly fan speeds) or add support for a new device, you can use your own `specs` folder:
 
 1. Create the folder: `/config/echonetgo/specs/`.
-2. **Download the base specs:** Since this folder replaces the internal one, you should first download the [entire etc/specs directory from GitHub](https://github.com/styygeli/EchonetGO/tree/dev/etc/specs) and place the YAML files into your new folder.
+2. **Download the base specs:** Since this folder replaces the internal one, you should first download the [entire etc/specs directory from GitHub](https://github.com/inexcession/EchonetGO/tree/dev/etc/specs) and place the YAML files into your new folder.
 3. Modify or add your custom `.yaml` files in that folder.
 4. Restart the add-on.
 
-We strongly encourage you to contribute your custom manufacturer-specific mappings back to the project! By submitting a Pull Request to the [EchonetGO repository](https://github.com/styygeli/EchonetGO), you help build a "plug-and-play" experience for everyone with the same hardware.
+We strongly encourage you to contribute your custom manufacturer-specific mappings back to the project! By submitting a Pull Request to the [EchonetGO repository](https://github.com/inexcession/EchonetGO), you help build a "plug-and-play" experience for everyone with the same hardware.
 
 ### Friendly Fan Speeds
 
@@ -100,4 +100,4 @@ climate:
 
 ### Contributing to the Database
 
-We encourage users to contribute their manufacturer-specific mappings back to the EchonetGO project! If you have figured out the friendly names or specific EPCs for your hardware, please submit a Pull Request to the [EchonetGO repository](https://github.com/styygeli/EchonetGO) with your new spec file. This helps build a comprehensive equipment database for everyone.
+We encourage users to contribute their manufacturer-specific mappings back to the EchonetGO project! If you have figured out the friendly names or specific EPCs for your hardware, please submit a Pull Request to the [EchonetGO repository](https://github.com/inexcession/EchonetGO) with your new spec file. This helps build a comprehensive equipment database for everyone.

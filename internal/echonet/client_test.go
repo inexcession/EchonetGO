@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/styygeli/echonetgo/internal/specs"
+	"github.com/inexcession/echonetgo/internal/specs"
 )
 
 type timeoutErr struct{}

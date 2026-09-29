@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/styygeli/echonetgo/internal/specs"
+	"github.com/inexcession/echonetgo/internal/specs"
 )
 
 // maxIntegerBytes bounds parseInteger. ECHONET EDT integers are at most 4 bytes;

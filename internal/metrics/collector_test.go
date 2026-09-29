@@ -4,12 +4,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/inexcession/echonetgo/internal/config"
+	"github.com/inexcession/echonetgo/internal/echonet"
+	"github.com/inexcession/echonetgo/internal/poller"
+	"github.com/inexcession/echonetgo/internal/specs"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/testutil"
-	"github.com/styygeli/echonetgo/internal/config"
-	"github.com/styygeli/echonetgo/internal/echonet"
-	"github.com/styygeli/echonetgo/internal/poller"
-	"github.com/styygeli/echonetgo/internal/specs"
 )
 
 func TestCollectorEmitsScrapeMetrics(t *testing.T) {

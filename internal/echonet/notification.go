@@ -6,7 +6,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/styygeli/echonetgo/internal/logging"
+	"github.com/inexcession/echonetgo/internal/logging"
 )
 
 var notifLog = logging.New("notification")

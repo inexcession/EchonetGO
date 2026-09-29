@@ -7,8 +7,8 @@ import (
 
 	"golang.org/x/sync/singleflight"
 
-	"github.com/styygeli/echonetgo/internal/config"
-	"github.com/styygeli/echonetgo/internal/echonet"
+	"github.com/inexcession/echonetgo/internal/config"
+	"github.com/inexcession/echonetgo/internal/echonet"
 )
 
 const (

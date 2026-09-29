@@ -1,4 +1,4 @@
-module github.com/styygeli/echonetgo
+module github.com/inexcession/echonetgo
 
 go 1.26.5
 

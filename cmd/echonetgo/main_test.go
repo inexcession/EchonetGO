@@ -3,9 +3,9 @@ package main
 import (
 	"testing"
 
-	"github.com/styygeli/echonetgo/internal/config"
-	"github.com/styygeli/echonetgo/internal/logging"
-	"github.com/styygeli/echonetgo/internal/poller"
+	"github.com/inexcession/echonetgo/internal/config"
+	"github.com/inexcession/echonetgo/internal/logging"
+	"github.com/inexcession/echonetgo/internal/poller"
 )
 
 func TestSetupEchonetTransport_AggregatesSharedIPNames(t *testing.T) {
