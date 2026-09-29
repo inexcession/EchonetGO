@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.51 - 2026-09-29
+- **Maintenance**: Internal code structure refinements and dependency housekeeping.
+- **Documentation**: Documentation updates and reference alignment.
+
 ## 0.9.50 - 2026-09-04
 - **Self-Healing Capabilities**: Added background `CapabilityReconciler` to continuously self-heal missing property maps (SETMAP/STATMAP) and device identity when devices reboot or come online after startup.
 - **Permissive Command Fallback**: Commands are no longer dropped when SETMAP is pending; the commander allows the command through and triggers background capability recovery. Eliminated UI state bounce during post-command verification.
